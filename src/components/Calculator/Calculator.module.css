@@ -1,0 +1,11 @@
+.menuButtons {
+    display: flex;
+    gap: 5px;
+    align-self: center;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}

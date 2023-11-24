@@ -1,0 +1,29 @@
+.todoElement {
+    background: lightgrey;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    gap: 15px;
+    border-radius: 10px;
+    width: fit-content;
+}
+
+.todoElement input {
+    background: lightgrey;
+    border: none;
+    font-weight: bold;
+}
+
+.todoElement label {
+    font-weight: bold;
+}
+
+.addButton {
+    width: 100px;
+}
+
+.todo {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}

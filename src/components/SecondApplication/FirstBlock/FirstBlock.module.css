@@ -1,0 +1,16 @@
+.blockWithTable {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 300px;
+    align-self: center;
+}
+
+table {
+    margin-top: 10px;
+}
+
+td, th {
+    padding: 5px;
+    border: black 2px solid;
+}

@@ -1,0 +1,29 @@
+.sidebar {
+    display: flex;
+    width: 10vw;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+    height: inherit;
+    background-color: darkcyan;
+    justify-self: flex-start;
+}
+
+.body {
+    display: flex;
+    width: 100vw;
+}
+
+.menu {
+    margin-right: 10vw;
+    display: flex;
+    width: 90vw;
+    align-items: center;
+    padding-top: 5vw;
+    flex-direction: column;
+}
+
+h4 {
+    margin-top: 0;
+}

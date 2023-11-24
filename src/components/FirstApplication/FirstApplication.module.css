@@ -1,0 +1,34 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-top: 5vh;
+    align-items: center;
+    width: 100vw;
+}
+
+.blockButtons {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.main button {
+    color: white;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.redButton {
+    background: red;
+}
+
+.greenButton {
+    background: green;
+    color: white;
+}
+
+.blueButton {
+    background: blue;
+    color: white;
+}

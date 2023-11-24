@@ -1,26 +1,24 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { Routes, Route } from "react-router-dom";
+import s from "./App.module.css";
+import ThirdApplication from "./components/ThirdApplication/ThirdApplication";
+import SecondApplication from "./components/SecondApplication/SecondApplication";
+import FirstApplication from "./components/FirstApplication/FirstApplication";
+import Navbar from "./components/Navbar/Navbar";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <>
+            <Navbar />
+            <div className={s.app}>
+                <Routes>
+                    <Route path="/first" element={<FirstApplication />} />
+                    <Route path="/second" element={<SecondApplication />} />
+                    <Route path="/third/:value2?" element={<ThirdApplication />} />
+                </Routes>
+            </div>
+        </>
+    );
 }
 
 export default App;
